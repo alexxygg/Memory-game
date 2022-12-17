@@ -1,0 +1,112 @@
+.App {
+  background-color: rgb(24, 26, 27);
+  height: 100vh;
+  width: 100vw;
+  color: ghostwhite;
+  text-align: center;
+}
+.intro {
+  width: 90vw;
+  background-color: darkcyan;
+  margin-left: 5vw;
+}
+.mainGrid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  justify-content: center;
+}
+.wrapperSquare {
+  width: 22%;
+  margin: 1.5%;
+  height: 5vh;
+  outline: black solid;
+  border-radius: 2rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+.square {
+  width: 100%;
+  height: 5vh;
+  border-radius: 2rem;
+}
+
+.score {
+  width: 90vw;
+  background-color: darkcyan;
+  margin-left: 5vw;
+}
+
+#divRows {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 2vh 0;
+  width: 90%;
+  margin-left: 5%;
+}
+.even {
+  height: 3vh;
+  width: 3vw;
+  background-color: black;
+}
+.odd {
+  height: 3vh;
+  width: 3vw;
+  background-color: #04ee51;
+}
+
+.bigDiv {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  color: ghostwhite;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  opacity: 0.01;
+}
+.hidden2 {
+  display: none;
+}
+
+button {
+  width: 60%;
+  margin: 0 20%;
+  background-color: gold;
+  border-radius: 2rem;
+  border: solid black;
+  padding: 1vh 0;
+  font-size: x-large;
+}
+.resultsIn {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  border-radius: 2rem;
+  border: solid black;
+  font-size: x-large;
+}
+.resultCorrect {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.resultWrong {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.hovered {
+  outline: solid ghostwhite;
+}
+.attempts {
+  color: ghostwhite;
+}
